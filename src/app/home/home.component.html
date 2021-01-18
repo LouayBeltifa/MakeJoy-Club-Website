@@ -1,0 +1,93 @@
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v9.0'
+    });
+  };
+</script>
+
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+</head>
+
+<div class="container-fluid text-center">
+  <div  class="mt-5">
+    <h1 class=" animate__animated animate__fadeInDown animate__slow animate__delay-2s" style="font-family: 'Hachi Maru Pop', cursive;"><strong>Hi THERE <br> WELCOME TO #JoyMakers WEBSITE</strong></h1>
+    <img src="assets/images/logomj.svg" class="" width="40%" height="40%" alt="logomMJ" class="animate__animated animate__slideInDown animate__slower">
+   
+  </div>
+  <div class="bt">
+    <a href="#about" class="btn btn-outline-dark mt-5 animate__animated animate__bounce animate__infinite animate__slow animate__delay-1s" style="font-family: 'Hachi Maru Pop', cursive;">Who We Are ?</a>
+  </div>
+  
+<div id="about"></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+  <div class="card text-center mt-5">
+    <div class="card-header">
+      <h3 style="font-family: 'Hachi Maru Pop', cursive;">ABOUT US</h3>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">MAKE JOY CLUB,</h5>
+      <h6 >Who We Are ? </h6>
+      <p class="card-text"> We are group of young people who are aged 16 through 20 , from Nabeul Tunisia, We Are #JOY_MAKERS</p>
+      <h6>What We Do ?</h6>
+      <p>We create events and conferences and all kind of entertainments to put the smile in our guests</p>
+      <h6>How We Do It ?</h6>
+      <p>We do it with Passion We Dream, We Share, We Work Hard</p>
+      <a href="https://www.facebook.com/makejoyy/" class="btn btn-outline-dark" target="_blank" id="events">More...</a>
+    </div>
+    <div class="card-footer text-muted" id="events">
+    </div>
+  </div>
+
+<div class="border border-secondary p-1 mt-5">
+    <h1 class="mt-5" style="font-family: 'Hachi Maru Pop', cursive;">SOME OF OUR EVENTS</h1>
+    <div class="d-flex justify-content-center flex-wrap mt-5 ">
+      <iframe class="p-4" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmakejoyy%2Fposts%2F656019601678734&width=350&show_text=false&appId=2035193050096692&height=495" width="350" height="495" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe class="p-4" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmakejoyy%2Fposts%2F644759442804750&width=350&show_text=false&appId=2035193050096692&height=496" width="350" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe class="p-4" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmakejoyy%2Fposts%2F539741893306506&width=350&show_text=false&appId=2035193050096692&height=495" width="350" height="495" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe class="p-4" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmakejoyy%2Fposts%2F505891103358252&width=350&show_text=false&appId=2035193050096692&height=496" width="350" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe class="p-4" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmakejoyy%2Fposts%2F451400148807348&width=350&show_text=false&appId=2035193050096692&height=495" width="350" height="495" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
+    <div  id="contact"></div>
+    <a href="https://www.facebook.com/makejoyy" class="btn btn-outline-dark mt-1 mb-3" target="_blank"> CHECK MORE ...</a>
+</div>
+  
+
+  <div class="container-fluid text-center mt-5 p-5 border border-secondary">
+    <form>
+      <h3 style="font-family: 'Hachi Maru Pop', cursive;">CONTACT US </h3>
+      <div class="form-group mt-5">
+        <label for="InputFname"><strong>First Name</strong></label>
+        <input type="text" class="form-control" id="InputFname" aria-describedby="emailHelp" placeholder="Enter First Name">
+      </div>
+      <div class="form-group">
+        <label for="InputLname"><strong>Last Name</strong></label>
+        <input type="text" class="form-control" id="InputLname" placeholder="Enter Last Name">
+      </div>
+      <div class="form-group">
+        <label for="InputEmail"><strong>Email</strong></label>
+        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="InputTextarea"><strong>Your Message</strong></label>
+        <textarea class="form-control" id="InputTextarea" rows="4"></textarea>
+      </div>
+      <a href="mailto:loauy.beltifa1@gmail.com" class="btn btn-outline-dark ">SEND</a>
+    </form>
+
+  </div>
+
+</div>

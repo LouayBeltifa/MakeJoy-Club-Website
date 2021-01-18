@@ -1,0 +1,18 @@
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 762px) {
+    h1,h2 {
+      font-size: 45px;
+    }
+    .bt a {
+      padding: 20px;
+      font-size: 35px;
+  }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 761px) {
+    h1,h2 {
+      font-size: 20px;
+    }
+
+  }

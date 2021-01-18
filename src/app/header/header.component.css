@@ -1,0 +1,16 @@
+@media screen and (min-width: 762px) {
+    .res {
+        border-right:solid 1px rgb(80, 80, 80);
+        padding-right: 10px;
+    }
+    
+  }
+ 
+ /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+ @media screen and (max-width: 761px) {
+    .res {
+        border-right: 0;
+        padding-right: 1px;
+        font-size: 12px;
+    }
+  }
